@@ -101,7 +101,6 @@
     self.timeLabel.text = model.time;
     self.contentLabel.text = model.content;
     self.iconView.image = [UIImage imageNamed:model.headPic];
-    NSLog(@"%@", model.headPic);
         // 运用sizeToFit自动高度和宽度
     //    [self.nameLabel sizeToFit];  // 如果想让label自动宽度，masonry就不要同时设置left,right否则sizeToFit方法失效
     //    [self.timeLabel sizeToFit];  // 使用了masonry约束后，再使用sizeToFit方法，如果masonry同时约束了top,bottom或者height那么sizeToFit将对该控件的高度无效，同理，如果masonry同时约束了left,right或者width那么sizeToFit将对该控件的宽度无效
