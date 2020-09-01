@@ -10,11 +10,15 @@
 #import "MyCommunityGridPicView.h"
 
 @interface MyCommunityCell()
-
+/// 头像
 @property (nonatomic, strong) UIImageView *iconView;
+/// name
 @property (nonatomic, strong) UILabel *nameLabel;
+/// time
 @property (nonatomic, strong) UILabel *timeLabel;
+/// text文本
 @property (nonatomic, strong) UILabel *contentLabel;
+/// 九宫格图片集
 @property (nonatomic, strong) MyCommunityGridPicView *picView;
 
 @end
